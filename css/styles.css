@@ -678,7 +678,6 @@ main {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 24px;
   margin-bottom: 16px;
 }
 
@@ -870,7 +869,7 @@ main {
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1158px;
+    min-width: 1158px;
   }
   /*================HERO===================*/
 
@@ -901,6 +900,7 @@ main {
     gap: 0 24px;
     width: auto;
     max-width: 100%;
+    margin: 0;
   }
   /*===================================*/
 
